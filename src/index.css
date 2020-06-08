@@ -100,3 +100,8 @@ background: linear-gradient(0deg, rgba(104,176,210,1) 35%, rgba(35,110,145,1) 10
   margin-right: 10px;
 }
 
+@media (min-width:660px) {
+  .other-info {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
