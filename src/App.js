@@ -54,7 +54,7 @@ function App() {
         <div className="container-app weather-info">
           <div className="location-map animate__animated animate__fadeInDown"><img src="./assets/location-map.svg"/> {weather.name}</div>
           <div className="main">
-            <img className="animate__animated animate__fadeInUp" src={'./assets/icons/'+ weather['weather'][0]['icon'] +'.png'} alt={weather['weather'][0]['main']}/>
+            <img className="animate__animated animate__fadeInUp" src={'./assets/icons/'+ weather['weather'][0]['icon'] +'.svg'} alt={weather['weather'][0]['main']}/>
             <div className="main-info">
               <h1 className="animate__animated animate__fadeInUp">{weather.main.temp}°</h1>
               <p>{weather['weather'][0]['description']}</p>
